@@ -1,0 +1,26 @@
+{
+  "name": "my-marmiton",
+  "version": "1.0.0",
+  "description": "This is an API where we can collecte many recipies (CRUD) ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --ignore 'db.json' src/index.js",
+    "test": "jest"
+  },
+  "author": "david do",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jest": "^27.5.1",
+    "mongodb": "^4.4.0",
+    "mongoose": "^6.2.3",
+    "supertest": "^6.2.2"
+  },
+  "devDependencies": {
+    "@shelf/jest-mongodb": "^2.2.0",
+    "nodemon": "^2.0.15"
+  }
+}
